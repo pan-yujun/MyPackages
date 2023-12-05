@@ -53,6 +53,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - label1
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 828610d9800a20a4c998085dfccc616e
+    m_Address: Assets/Testures/image_favorite.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 575e6933687cd214191e7b45e900694c, type: 2}
   m_SchemaSet:
