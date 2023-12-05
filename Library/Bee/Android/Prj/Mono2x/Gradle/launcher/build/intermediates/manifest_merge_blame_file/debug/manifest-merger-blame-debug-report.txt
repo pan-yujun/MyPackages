@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.MyPackgesLearn2"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+19-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+19-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:26-76
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
+21-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-64
+22
+23    <uses-feature android:glEsVersion="0x00030000" />
+23-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-54
+23-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:19-51
+24    <uses-feature
+24-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-17:36
+25        android:name="android.hardware.vulkan.version"
+25-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-55
+26        android:required="false" />
+26-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-33
+27    <uses-feature
+27-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-20:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-52
+29        android:required="false" />
+29-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-33
+30    <uses-feature
+30-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-23:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-63
+32        android:required="false" />
+32-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-33
+33    <uses-feature
+33-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-26:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-72
+35        android:required="false" />
+35-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33
+36
+37    <application
+37-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+38        android:debuggable="true"
+39        android:extractNativeLibs="true"
+39-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:18-50
+40        android:icon="@mipmap/app_icon"
+40-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+41        android:label="@string/app_name" >
+41-->D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+42        <meta-data
+42-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-31:33
+43            android:name="unity.splash-mode"
+43-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-45
+44            android:value="0" />
+44-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-30
+45        <meta-data
+45-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-34:36
+46            android:name="unity.splash-enable"
+46-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-47
+47            android:value="True" />
+47-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-33
+48        <meta-data
+48-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:36
+49            android:name="unity.launch-fullscreen"
+49-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-51
+50            android:value="True" />
+50-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-33
+51        <meta-data
+51-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:37
+52            android:name="unity.allow-resizable-window"
+52-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-56
+53            android:value="False" />
+53-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-34
+54        <meta-data
+54-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-43:50
+55            android:name="notch.config"
+55-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-40
+56            android:value="portrait|landscape" />
+56-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-47
+57        <meta-data
+57-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-46:36
+58            android:name="unity.auto-report-fully-drawn"
+58-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-57
+59            android:value="true" />
+59-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-33
+60
+61        <activity
+61-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-69:20
+62            android:name="com.unity3d.player.UnityPlayerActivity"
+62-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-66
+63            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+63-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-194
+64            android:exported="true"
+64-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-36
+65            android:hardwareAccelerated="false"
+65-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-48
+66            android:launchMode="singleTask"
+66-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-44
+67            android:resizeableActivity="false"
+67-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-47
+68            android:screenOrientation="fullUser"
+68-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-49
+69            android:theme="@style/UnityThemeSelector" >
+69-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-54
+70            <intent-filter>
+70-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-61:29
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:17-77
+71-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:27-74
+72
+73                <action android:name="android.intent.action.MAIN" />
+73-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-69
+73-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:25-66
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-65:40
+77                android:name="unityplayer.UnityActivity"
+77-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-57
+78                android:value="true" />
+78-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:17-37
+79            <meta-data
+79-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-68:40
+80                android:name="notch_support"
+80-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:17-45
+81                android:value="true" />
+81-->[:unityLibrary] D:\U3DProjects\MyPackages\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:17-37
+82        </activity>
+83    </application>
+84
+85</manifest>

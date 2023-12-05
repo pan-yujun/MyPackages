@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1d101c73b4192f44d8412c564a1b46a5
+  m_SerializeEntries:
+  - m_GUID: b7cf5aab8efd4074db8865f072b6cd9f
+    m_Address: Assets/Prefabs/man.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdce7d4127bd97f4493a305f0a0e5484
+    m_Address: Assets/Testures/img_lrc3_firefly.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcde1927a6facb84baaddeb69feeec03
+    m_Address: Assets/Testures/img_lrc_dynamic_trend.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29f895041c0ee5840a97cad3e055fd0e
+    m_Address: Assets/Testures/img_lrc_flowingillusion.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55ab2e2df348bc46b22f571825fc82a
+    m_Address: Assets/Testures/img_Lrc_ShapeFX.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: def44e06febcd2547b0c426d17e43473
+    m_Address: Assets/Matrials/greenMatrial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 430d0e5b8af2fae47a5880d006051af0
+    m_Address: Assets/Matrials/redMatrial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c68bb8e44a1afe45954fdf42ce5b643
+    m_Address: Assets/Matrials/DynamincMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7816e1aa75649bb40925cb9079a3b55b
+    m_Address: Assets/Matrials/New Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 575e6933687cd214191e7b45e900694c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 96be425f9b619a8499756ec77462c432, type: 2}
+    - {fileID: 11400000, guid: a2e3d4c83ae5a1840a2bc3000542d431, type: 2}
