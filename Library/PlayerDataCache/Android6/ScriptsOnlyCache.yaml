@@ -12,12 +12,17 @@ ScriptsOnlyBuild:
     - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptVirtualMode
     - UnityEditor.AddressableAssets.BuildReportVisualizer.BuildReportWindow
     - UnityEditor.AddressableAssets.GUI.AddressableAssetsWindow
+    - UnityEditor.AddressableAssets.GUI.HostingServicesWindow
+    - UnityEditor.AddressableAssets.GUI.ProfileWindow
     - UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
     - UnityEditor.AddressableAssets.Settings.AddressableAssetGroupTemplate
     - UnityEditor.AddressableAssets.Settings.AddressableAssetSettings
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
+    - UnityEditor.AddressableAssets.Settings.ProfileDataSourceSettings
+    Unity.ResourceManager.dll:
+    - MonoBehaviourCallbackHooks
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -106,33 +111,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16596}
+      Script: {instanceID: 16628}
     - Class: 114
-      Script: {instanceID: 17172}
+      Script: {instanceID: 17292}
     - Class: 114
-      Script: {instanceID: 17582}
+      Script: {instanceID: 17810}
     - Class: 114
-      Script: {instanceID: 17780}
+      Script: {instanceID: 18038}
     - Class: 114
-      Script: {instanceID: 18060}
+      Script: {instanceID: 18374}
     - Class: 114
-      Script: {instanceID: 19034}
+      Script: {instanceID: 19400}
     - Class: 114
-      Script: {instanceID: 19280}
+      Script: {instanceID: 19540}
     - Class: 114
-      Script: {instanceID: 19964}
+      Script: {instanceID: 19850}
     - Class: 114
-      Script: {instanceID: 20502}
+      Script: {instanceID: 20480}
     - Class: 114
-      Script: {instanceID: 20648}
+      Script: {instanceID: 20676}
     - Class: 114
-      Script: {instanceID: 20958}
+      Script: {instanceID: 21316}
     - Class: 114
-      Script: {instanceID: 27418}
+      Script: {instanceID: 21494}
     - Class: 114
-      Script: {instanceID: 27882}
+      Script: {instanceID: 21758}
     - Class: 114
-      Script: {instanceID: 27890}
+      Script: {instanceID: 21880}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -248,6 +253,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.ResourceManager
+    namespaceName: UnityEngine.ResourceManagement.Util
+    className: DelayedActionManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -478,6 +489,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 76fe8453c3db005e0c79b3018cdfc4af
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RotateObject
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -622,6 +639,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 66c9feaaf3108aab4d4d855e9d67b0bb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIOperate
+  - hash:
+      serializedVersion: 2
       Hash: fa7c62595553866a25a1f687b1914fd2
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -700,6 +723,12 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.ResourceManager
+    namespaceName: 
+    className: MonoBehaviourCallbackHooks
+  - hash:
+      serializedVersion: 2
       Hash: 6a356b04c25c0bb008c1b24bf8b0f996
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -728,6 +757,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa931b14cfae32d62eb1b3ae93a8035
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ConsoleToScreen
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -904,6 +939,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 56e44fa084eed055d2a9c07601825bd0
+    assemblyName: Unity.ScriptableBuildPipeline
+    namespaceName: UnityEngine.Build.Pipeline
+    className: CompatibilityAssetBundleManifest
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -965,6 +1006,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.ResourceManager
+    namespaceName: UnityEngine.ResourceManagement.Diagnostics
+    className: DiagnosticEventCollector
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExit2DMessageListener
@@ -974,49 +1021,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 56e44fa084eed055d2a9c07601825bd0
-    assemblyName: Unity.ScriptableBuildPipeline
-    namespaceName: UnityEngine.Build.Pipeline
-    className: CompatibilityAssetBundleManifest
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.ResourceManager
-    namespaceName: 
-    className: MonoBehaviourCallbackHooks
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.ResourceManager
-    namespaceName: UnityEngine.ResourceManagement.Diagnostics
-    className: DiagnosticEventCollector
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.ResourceManager
-    namespaceName: UnityEngine.ResourceManagement.Util
-    className: DelayedActionManager
-  - hash:
-      serializedVersion: 2
-      Hash: 76fe8453c3db005e0c79b3018cdfc4af
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RotateObject
-  - hash:
-      serializedVersion: 2
-      Hash: 66c9feaaf3108aab4d4d855e9d67b0bb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UIOperate
-  - hash:
-      serializedVersion: 2
-      Hash: 2fa931b14cfae32d62eb1b3ae93a8035
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ConsoleToScreen
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/U3DProjects/MyPackages/Build/demo.apk
+  playerPath: D:/U3DProjects/MyPackages/Build/demo3.apk

@@ -22,11 +22,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bdce7d4127bd97f4493a305f0a0e5484
-    m_Address: Assets/Testures/img_lrc3_firefly.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bcde1927a6facb84baaddeb69feeec03
     m_Address: Assets/Testures/img_lrc_dynamic_trend.png
     m_ReadOnly: 0
@@ -59,6 +54,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7816e1aa75649bb40925cb9079a3b55b
     m_Address: Assets/Matrials/New Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdce7d4127bd97f4493a305f0a0e5484
+    m_Address: Assets/Testures/img_lrc3_firefly.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

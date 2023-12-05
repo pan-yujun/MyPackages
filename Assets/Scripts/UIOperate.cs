@@ -31,7 +31,10 @@ public class UIOperate : MonoBehaviour
     {
         count++;
         Debug.Log("点击了按钮,创建一个prefab");
-        Addressables.LoadAssetAsync<GameObject>("Assets/Prefabs/wamon.prefab").Completed += (handle) =>
+        string key = "Assets/Prefabs/wamon.prefab";
+        string key1 = "Assets/Prefabs/wamon1.prefab";
+        string curKey = count % 2 == 0 ? key : key1;
+        Addressables.LoadAssetAsync<GameObject>(curKey).Completed += (handle) =>
         {
             // 预设物体
             GameObject prefabObj = handle.Result;

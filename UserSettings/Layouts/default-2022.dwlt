@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Addressables Report
+  m_Title: Addressables Hosting
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -34,24 +34,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: BuildReportWindow
+  m_Name: HostingServicesWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 422.4
+    x: 444.8
     y: 0
-    width: 680
-    height: 406.8
-  m_MinSize: {x: 282, y: 71}
+    width: 865.60004
+    height: 570.8
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 18}
+  - {fileID: 17}
   - {fileID: 15}
+  - {fileID: 16}
   - {fileID: 14}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -70,13 +72,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 316
-    width: 1102.4
-    height: 406.8
+    y: 152
+    width: 1310.4
+    height: 570.8
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 507
+  controlID: 94
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,13 +96,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 302.4
-    height: 316
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+    width: 361.6
+    height: 152
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -122,12 +124,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1102.4
-    height: 316
+    width: 1310.4
+    height: 152
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 40
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,13 +147,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 422.4
-    height: 406.8
+    width: 444.8
+    height: 570.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
@@ -228,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 92
+  controlID: 38
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,12 +271,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1102.4
+    width: 1310.4
     height: 722.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 39
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,15 +292,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1102.4
+    x: 1310.4
     y: 0
-    width: 433.59998
+    width: 225.59998
     height: 722.8
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -316,19 +318,335 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 302.4
+    x: 361.6
     y: 0
-    width: 800
-    height: 316
+    width: 948.80005
+    height: 152
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 19}
+  - {fileID: 22}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d9831e406a04294b27e5e2577dccb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Addressables Profiles
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 444.80002
+    y: 225.6
+    width: 863.60004
+    height: 549.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9834b3849844b497cbdd2afdd4701e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Addressables Hosting
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 444.80002
+    y: 225.6
+    width: 863.60004
+    height: 549.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_LogText: '[Local Hosting 0] Started. Listening on port 55297. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 55297. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 55297. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 55297. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Stopping
+
+    [Local
+    Hosting 0] Started. Listening on port 59320. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Stopping
+
+    [Local Hosting
+    0] Started. Listening on port 54201. Hosting 2 folders.
+
+    [Local Hosting 0]
+    Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Stopping
+
+    [Local Hosting
+    0] Started. Listening on port 54202. Hosting 2 folders.
+
+    [Local Hosting 0]
+    Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening on
+    port 54202. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Stopping
+
+    [Local
+    Hosting 0] Started. Listening on port 54202. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening on
+    port 54202. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 54202. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 54202. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:24:40.8832839+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:25:09.5219714+08:00] "" 404 -
+
+    [Local Hosting 0] Stopping
+
+    [Local
+    Hosting 0] Started. Listening on port 59503. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.0.106 - - [2023-12-05T22:25:36.4056780+08:00]
+    "" 404 -
+
+    [Local Hosting 0] 192.168.0.106 - - [2023-12-05T22:25:38.7085070+08:00]
+    "" 404 -
+
+    [Local Hosting 0] 192.168.0.106 - - [2023-12-05T22:25:40.3831476+08:00]
+    "" 404 -
+
+    [Local Hosting 0] Stopping
+
+    [Local Hosting 0] Started. Listening
+    on port 59281. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:11.7989960+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:13.4687974+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:14.3395305+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:14.8054104+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:15.0990681+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:15.4608398+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:15.6862630+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:15.8673554+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:16.0433444+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:16.2101448+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:16.5162075+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.0.106
+    - - [2023-12-05T22:26:46.5189522+08:00] "" 404 -
+
+    [Local Hosting 0] Stopping
+
+    [Local
+    Hosting 0] Started. Listening on port 59281. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.0.106 - - [2023-12-05T22:27:11.9607607+08:00]
+    "" 404 -
+
+    [Local Hosting 0] Stopping
+
+    [Local Hosting 1] Started. Listening
+    on port 49513. Hosting 2 folders.
+
+    [Local Hosting 1] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 1] Hosting : ServerData/Android
+
+    [Local Hosting 1] 192.168.0.106
+    - - [2023-12-05T22:29:35.4008234+08:00] "" 404 -
+
+    [Local Hosting 1] Stopping
+
+    [Local
+    Hosting 1] Started. Listening on port 49513. Hosting 2 folders.
+
+    [Local Hosting
+    1] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local Hosting
+    1] Hosting : ServerData/Android
+
+    [Local Hosting 1] 192.168.0.106 - - [2023-12-05T22:37:30.1619975+08:00]
+    "" 404 -
+
+    [Local Hosting 1] 192.168.0.106 - - [2023-12-05T22:37:34.0057308+08:00]
+    "" 404 -
+
+    [Local Hosting 1] 192.168.0.106 - - [2023-12-05T22:38:22.1780462+08:00]
+    "" 404 -
+
+    [Local Hosting 1] Stopping
+
+    [Local Hosting 2] Started. Listening
+    on port 55677. Hosting 2 folders.
+
+    [Local Hosting 2] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 2] Hosting : ServerData/Android
+
+    [Local Hosting 2] 192.168.0.106
+    - - [2023-12-05T22:39:18.0148833+08:00] "" 404 -
+
+    [Local Hosting 2] 192.168.0.106
+    - - [2023-12-05T22:39:20.2591471+08:00] "" 404 -
+
+'
+  m_LogScrollPos: {x: 0, y: 1042}
+  m_ServicesScrollPos: {x: 0, y: 0}
+  m_VerticalSplitterRatio: 0.5652965
+  m_Settings: {fileID: 11400000, guid: 575e6933687cd214191e7b45e900694c, type: 2}
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,10 +666,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 422.4
-    y: 389.6
-    width: 678
-    height: 385.8
+    x: 444.80002
+    y: 225.6
+    width: 863.60004
+    height: 549.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -368,7 +686,7 @@ MonoBehaviour:
   m_DetailsPanelSummaryNavigableBundleTreeAsset: {fileID: 9197481963319205126, guid: 82c7396e127bdc14e8983693357610a3, type: 3}
   m_ActiveContentViewType: 0
   m_ActivePotentialIssuesViewType: 0
---- !u!114 &15
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -388,10 +706,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 422.4
-    y: 563.2
-    width: 678
-    height: 212.19998
+    x: 416
+    y: 225.6
+    width: 806.80005
+    height: 549.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -442,8 +760,8 @@ MonoBehaviour:
         allowToggleVisibility: 1
         canSort: 0
         userData: 0
-      - width: 390.45615
-        sortedAscending: 0
+      - width: 196.52962
+        sortedAscending: 1
         headerContent:
           m_Text: Group Name \ Addressable Name
           m_Image: {fileID: 0}
@@ -472,8 +790,8 @@ MonoBehaviour:
         allowToggleVisibility: 1
         canSort: 0
         userData: 0
-      - width: 225.26315
-        sortedAscending: 0
+      - width: 102.86973
+        sortedAscending: 1
         headerContent:
           m_Text: Path
           m_Image: {fileID: 0}
@@ -487,7 +805,7 @@ MonoBehaviour:
         allowToggleVisibility: 1
         canSort: 1
         userData: 0
-      - width: 240.2807
+      - width: 59.06384
         sortedAscending: 0
         headerContent:
           m_Text: Labels
@@ -503,10 +821,10 @@ MonoBehaviour:
         canSort: 1
         userData: 0
       m_VisibleColumns: 0000000001000000020000000300000004000000
-      m_SortedColumns: 
-    window: {fileID: 15}
-    m_VerticalSplitterPercent: 0.8
---- !u!114 &16
+      m_SortedColumns: 030000000400000001000000
+    window: {fileID: 17}
+    m_VerticalSplitterPercent: 0.8030067
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -526,10 +844,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 422.4
-    y: 389.6
-    width: 678
-    height: 385.8
+    x: 416
+    y: 225.6
+    width: 806.80005
+    height: 549.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -540,7 +858,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -560,9 +878,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1102.4
+    x: 1310.4
     y: 73.6
-    width: 432.59998
+    width: 224.59998
     height: 701.8
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -587,7 +905,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -608,9 +926,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 389.6
-    width: 421.4
-    height: 385.8
+    y: 225.6
+    width: 443.8
+    height: 549.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -634,7 +952,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/AddressableAssetsData/AssetGroups
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -642,16 +960,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/AddressableAssetsData/AssetGroups
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\U3DProjects\MyPackages
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10650000
-    m_LastClickedID: 25872
-    m_ExpandedIDs: 00000000f0640000446b000000ca9a3b
+    m_SelectedIDs: a4660000
+    m_LastClickedID: 26276
+    m_ExpandedIDs: 00000000b65e0000c05e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,7 +997,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8e5d0000
     m_LastClickedID: 23950
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b65e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,18 +1028,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UIOperate
-      m_OriginalName: UIOperate
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27882
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
@@ -735,7 +1053,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 203
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -755,10 +1073,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 302.4
+    x: 337.6
     y: 73.6
-    width: 798
-    height: 468.6
+    width: 885.2001
+    height: 295
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -811,29 +1129,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 798
-      height: 447.6
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 399, y: 223.8}
+      width: 885.2001
+      height: 274
+    m_Scale: {x: 0.7135416, y: 0.7135417}
+    m_Translation: {x: 442.6, y: 137}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -399
-      y: -223.8
-      width: 798
-      height: 447.6
+      x: -620.2862
+      y: -192
+      width: 1240.5724
+      height: 384
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 997.5, y: 585.75}
+  m_defaultScale: 0.7135417
+  m_LastWindowPixelSize: {x: 1106.5001, y: 368.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -853,10 +1171,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 302.4
+    x: 361.6
     y: 73.6
-    width: 798
-    height: 295
+    width: 946.80005
+    height: 131
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -885,7 +1203,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: -44.199997}
       snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
@@ -897,7 +1215,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -923,8 +1241,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: -24.8}
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
@@ -936,7 +1254,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 3.600006}
+      snapOffset: {x: 67.5, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Orientation
@@ -1137,9 +1455,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -107.501526, y: 1.2358662, z: -0.059887953}
+    m_Target: {x: -107.301994, y: 0.7642376, z: -0.05385742}
     speed: 2
-    m_Value: {x: -107.501526, y: 1.2358662, z: -0.059887953}
+    m_Value: {x: -107.301994, y: 0.7642376, z: -0.05385742}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1189,9 +1507,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.854822
+    m_Target: 6.251769
     speed: 2
-    m_Value: 6.854822
+    m_Value: 6.251769
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1209,14 +1527,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1238,8 +1556,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 301.4
-    height: 295
+    width: 360.6
+    height: 131
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1255,7 +1573,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0a64ffffc664ffff3066ffffbe86ffffdc86ffff6489fffffabaffff28fbffff
+      m_ExpandedIDs: 42deffff88f9ffff28fbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

@@ -17,10 +17,41 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: b3895c0430834f5478588ee502938b25
   m_SerializeEntries:
+  - m_GUID: f2f4e68767074d5418bfe3c5f59d4bf8
+    m_Address: Assets/Testures/focus1_card.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - label2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc72861c2f6318344bf8bc6ac3c379e3
+    m_Address: Assets/Testures/focus2_card.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - label1
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e4f6374f2c88e514b8a8fa7c42b2d9dc
     m_Address: Assets/Prefabs/wamon.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - label2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c46d626d258d9b84f9a1556c47d4704d
+    m_Address: Assets/Matrials/remote_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - label2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4492d3a5f49c844fb1ce067d7e792ce
+    m_Address: Assets/Matrials/remote_mat 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - label1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b0df16d22e11534d9f8618104344b2b
+    m_Address: Assets/Prefabs/wamon1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - label1
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 575e6933687cd214191e7b45e900694c, type: 2}
